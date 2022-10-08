@@ -74,7 +74,7 @@ h2:after{
     background-color: #ec7024;
 }
 .field{
-     width: 100;
+     width: 100%;
      padding: 0.5rem 1rem;
      outline: none;
      border: 2px solid rgba(0, 0, 0, 0);
