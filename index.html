@@ -19,7 +19,17 @@
                     <input type="tel" id="tel" class="field" placeholder="Mobile Number" name ="mobile" required>
                     <input type="text" id="gender" class="field" placeholder="Gender" name="gender" required>
                     <input type="text" id="district" class="field" placeholder="District" name="district" required>
-                    <input type="text" id="bloodgroup" class="field" placeholder="Blood Group" name="bloodgroup" required>
+                    <select id="bloodgroup"  class="field" required>
+                      <option value="0" disabled="disabled" selected="selected">Blood Group</option>
+                      <option value="A+">A+</option>
+                      <option value="B+">B+</option>
+                      <option value="AB+">AB+</option>
+                      <option value="A-">A-</option>
+                      <option value="B-">B-</option>
+                      <option value="AB-">AB-</option>
+                      <option value="O+">O+</option>
+                      <option value="O-">O-</option>
+                  </select>
                     <input type="number" id="dob" class="field" placeholder="Date of Birth" name="dob" required>
                 
                     <button id="submitBtn" class="btn">Submit</button>
