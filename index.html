@@ -17,7 +17,10 @@
                 <form action="https://script.google.com/macros/s/AKfycbwZ9Y41b_YleR4xsacFqTUO6ZZbylzN5jgNRX4_qvfBBOO1h30TjD_X6e380wMMFbhB/exec" method="post">
                     <input type="text" id="name" class="field" placeholder="Your Name" name="name" required>
                     <input type="tel" id="tel" class="field" placeholder="Mobile Number" name ="mobile" required>
-                    <input type="text" id="gender" class="field" placeholder="Gender" name="gender" required>
+                    <select id="gender" class="field" name="gender" required>
+                      <option value="0" disabled="disabled" selected="selected">Gender</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
                     <input type="text" id="district" class="field" placeholder="District" name="district" required>
                     <select id="bloodgroup"  class="field" name="bloodgroup" required>
                       <option value="0" disabled="disabled" selected="selected">Blood Group</option>
