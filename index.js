@@ -22,7 +22,7 @@ submitBtn.addEventListener("click", () => {
 });
 
 const generatePDF = async (name) => {
-  const existingPdfBytes = await fetch("./cert.pdf").then((res) =>
+  const existingPdfBytes = await fetch("./cert1.pdf").then((res) =>
     res.arrayBuffer()
   );
 
@@ -44,11 +44,11 @@ const generatePDF = async (name) => {
 
   // Draw a string of text diagonally across the first page
   firstPage.drawText(name, {
-    x: 300,
-    y: 270,
-    size: 58,
+    x: 420,
+    y: 485,
+    size: 42,
     font: SanChezFont,
-    color: rgb(0.2, 0.84, 0.67),
+    color: rgb(0.36, 0.34, 0.34),
   });
 
   // Serialize the PDFDocument to bytes (a Uint8Array)
