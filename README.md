@@ -1,6 +1,6 @@
 # Blood Donation Camp 2022 October
 
-This web application is developed for blood donors to download their bloood donation certificate.
+This web application is developed for blood donors to download their blood donation certificate.
 
 The application also collects donors data and saves it in an excel format.
 
